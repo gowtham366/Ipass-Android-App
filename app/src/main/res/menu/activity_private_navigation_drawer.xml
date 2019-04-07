@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/idListView"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="List View" />
+        <item
+            android:id="@+id/idGraphView"
+            android:icon="@drawable/ic_multiline_chart_black_24dp"
+            android:title="Graphical View" />
+        <item
+            android:id="@+id/idMapView"
+            android:icon="@drawable/ic_map_black_24dp"
+            android:title="Map View" />
+        <item
+            android:id="@+id/idSwitch"
+            android:icon="@drawable/ic_cast_black_24dp"
+            android:title="Control Things" />
+        <item
+            android:id="@+id/idReport"
+            android:icon="@drawable/ic_file_download_black_24dp"
+            android:title="Download Report" />
+
+    </group>
+
+
+    <item android:title="Settings">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/idChannelType"
+                    android:icon="@drawable/ic_public_black_24dp"
+                    android:title="Channel Type" />
+                <item
+                    android:id="@+id/idFieldName"
+                    android:icon="@drawable/ic_update_black_24dp"
+                    android:title="Update Field Name" />
+                <item
+                    android:id="@+id/idMapName"
+                    android:icon="@drawable/ic_edit_location_black_24dp"
+                    android:title="Update Map Name" />
+                <item
+                    android:id="@+id/idSwitchName"
+                    android:icon="@drawable/ic_cast_connected_black_24dp"
+                    android:title="Update Switch Name" />
+            </group>
+            <item
+                android:id="@+id/idNavLogout"
+                android:icon="@drawable/ic_lock_outline_black_24dp"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>

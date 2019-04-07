@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="259dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <TextView
+            android:id="@+id/idListTime"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="21dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/acme"
+            android:text="Time" />
+
+        <TextView
+            android:id="@+id/idListField1Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idListTime"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@+id/idListTime"
+            android:layout_toRightOf="@+id/idListTime"
+            android:text="Field 1 Name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idListField2Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/idListField1Name"
+            android:layout_alignStart="@+id/idListField1Name"
+            android:layout_below="@+id/idListField1Name"
+            android:layout_marginTop="13dp"
+            android:text="Field 2 Name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idListField3Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/idListField2Name"
+            android:layout_alignStart="@+id/idListField2Name"
+            android:layout_below="@+id/idListField2Name"
+            android:layout_marginTop="13dp"
+            android:text="Field 3 Name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idListField4Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/idListField3Name"
+            android:layout_alignStart="@+id/idListField3Name"
+            android:layout_below="@+id/idListField3Name"
+            android:layout_marginTop="15dp"
+            android:text="Field 4 Name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idListField5Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/idListField4Name"
+            android:layout_alignRight="@+id/idListField4Name"
+            android:layout_below="@+id/idListField4Name"
+            android:layout_marginTop="15dp"
+            android:text="Field 5 Name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idListField6Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/idListField5Name"
+            android:layout_alignStart="@+id/idListField5Name"
+            android:layout_below="@+id/idListField5Name"
+            android:layout_marginTop="13dp"
+            android:text="Field 6 Name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idListField1Value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/idListField1Name"
+            android:layout_marginEnd="74dp"
+            android:layout_marginRight="74dp"
+            android:text="Value" />
+
+        <TextView
+            android:id="@+id/idListField2Value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/idListField1Value"
+            android:layout_alignStart="@+id/idListField1Value"
+            android:layout_alignTop="@+id/idListField2Name"
+            android:text="Value" />
+
+        <TextView
+            android:id="@+id/idListField3Value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/idListField2Value"
+            android:layout_alignStart="@+id/idListField2Value"
+            android:layout_alignTop="@+id/idListField3Name"
+            android:text="Value" />
+
+        <TextView
+            android:id="@+id/idListField4Value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/idListField3Value"
+            android:layout_alignStart="@+id/idListField3Value"
+            android:layout_alignTop="@+id/idListField4Name"
+            android:text="Value" />
+
+        <TextView
+            android:id="@+id/idListField5Value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/idListField4Value"
+            android:layout_alignStart="@+id/idListField4Value"
+            android:layout_alignTop="@+id/idListField5Name"
+            android:text="Value" />
+
+        <TextView
+            android:id="@+id/idListField6Value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/idListField6Name"
+            android:layout_alignLeft="@+id/idListField5Value"
+            android:layout_alignStart="@+id/idListField5Value"
+            android:text="Value" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
